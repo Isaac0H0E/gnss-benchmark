@@ -27,10 +27,10 @@
         }
     ],
     "validation" : {
-        "description": "The PPK reference position has been obtained using a Geodetic GNSS receiver and antenna (Septentrio AsteRx + PolaNt) with a PPK strategy using PLAN CORS GNSS station",
+        "description": "The PPK reference position has been obtained using a Geodetic GNSS receiver and antenna (Septentrio AsteRx + PolaNt) with a PPK strategy using PLAN CORS GNSS station (and antenna files). The PPS position has been computed by tranforming the PPK from ETRF2000 epoch 2017.00 to ITRF2014 epoch 2020.78 by EUREF datum transformation calculator ",
         "reference_position": {
-            "SPP" : [4787691.567, 183435.827, 4196130.416],
-            "PPK" : [4787691.974, 183435.243, 4196129.992]
+            "SPP" : [4787691.692, 183435.830, 4196130.543],
+            "PPK" : [4787692.102, 183435.247, 4196130.106]
         }
     }
 }
